@@ -1,0 +1,10 @@
+.tile{
+    display:inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+
+    text-align: center;
+    font-size: xx-large;
+    line-height: 100px;
+}
