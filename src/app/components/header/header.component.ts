@@ -8,7 +8,7 @@ import { CommunicationService } from 'src/app/services/communication/communicati
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
- 
+
   constructor(private communicationService: CommunicationService) {
 
    }

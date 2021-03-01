@@ -3,12 +3,12 @@ using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Host;
 using Microsoft.Extensions.Logging;
 
-namespace FunctionTest
+namespace TestFunction
 {
-    public static class Function4
+    public static class Function2
     {
-        [FunctionName("Function4")]
-        public static void Run([QueueTrigger("QueueName", Connection = "ConnectionStrings:QueueStorage")]string myQueueItem, ILogger log)
+        [FunctionName("Function2")]
+        public static void Run([QueueTrigger("QueueName", Connection = "ConnectionStrings:AzureWebJobsStorage")]string myQueueItem, ILogger log)
         {
             log.LogInformation($"C# Queue trigger function processed: {myQueueItem}");
         }
