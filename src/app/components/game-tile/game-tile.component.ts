@@ -18,6 +18,7 @@ export class GameTileComponent implements OnInit {
 
   clickTile() {
     if (this.sign == '') {
+      console.log("github deployment");
       this.tileClickEvent.emit({ x: this.x, y: this.y });
     }
   }
