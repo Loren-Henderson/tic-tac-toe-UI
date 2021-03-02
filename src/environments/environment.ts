@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'https://tttapi1.azurewebsites.net'//'https://testfunction20210226150424.azurewebsites.net/api/Function1?name=Tic-Tac-Toe'//'http://localhost:5000/api/game'
+  apiUrl: 'https://wonderful-ocean-021585f0f.azurestaticapps.net/'//'https://testfunction20210226150424.azurewebsites.net/api/Function1?name=Tic-Tac-Toe'//'http://localhost:5000/api/game'
 };
 
 /*
