@@ -4,8 +4,9 @@
 
 export const environment = {
   production: false,
+
   apiUrl: 'https://newtestfunction1.azurewebsites.net/api/DurableFunctionsOrchestrationTicTacToe_HttpStart'//'http://localhost:5000/api/game'
-};
+
 
 /*
  * For easier debugging in development mode, you can import the following file
